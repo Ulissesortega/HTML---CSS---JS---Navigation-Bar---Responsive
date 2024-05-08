@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.menuList ul{
+    display: flex;    
+}
+
+.menuList ul li{
+    list-style: none;    
+    margin-left: 20px;
+    text-transform: uppercase;    
+}
+
+.menuList ul li a{
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+}
+
+@media only screen and (max-width: 680px){
+    .burger{
+        display: block;
+    }
+}
