@@ -6,12 +6,12 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     background-color: black;
     color: wheat;
-    padding: 10px;
+    padding: 10px 40px;
 }
 
 .menuList ul{
