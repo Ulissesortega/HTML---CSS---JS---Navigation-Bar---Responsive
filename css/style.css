@@ -35,23 +35,49 @@
 
 @media only screen and (max-width: 768px){
     
-    .navbar{
+    .navbar .burger{
         display: flex;
         flex-direction: column;                
     }
 
+    .menuList{
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        top: 45px;
+        left: 0;        
+        padding-left: 8px;                
+    }
+
     .menuList ul{
-        display: inline-block;        
+        display: block;                                
     }
 
     .menuList ul li{
-        padding: 10px
-    }  
+        padding: 15px;
+        
+    }
 
 
-}
 
-@media only screen and (max-width: 480px){
+    
     
 
+
 }
+
+
+@media only screen and (max-width: 768px){
+    
+#menuList {
+    display: none;
+}
+}
+
+@media only screen and (min-width: 769px){
+    
+    #menuList {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    }
